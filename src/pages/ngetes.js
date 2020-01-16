@@ -28,7 +28,7 @@ export default () => {
             </div>
             <Grid container spacing={2}>
         <Grid item xs={4}>
-        <p id="text">DRAGON QUEST® XI: Echoes of an Elusive Age™ - Digital Edition of Light</p>
+        <p style= {{ padding: 20}}>DRAGON QUEST® XI: Echoes of an Elusive Age™ - Digital Edition of Light</p>
         </Grid>
         <Grid item xs={4}>
         ASTRONEER
