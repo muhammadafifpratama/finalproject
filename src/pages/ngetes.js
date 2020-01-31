@@ -6,6 +6,8 @@ export default () => {
     const [activeItemIndex, setActiveItemIndex] = useState(0);
     const chevronWidth = 40;
     return (
+        <div style={{padding: 20}}>
+        <p id="text">UNDER RP 90 000</p>
         <div id="tes" style={{ padding: `0 ${chevronWidth}px` }}>
             <ItemsCarousel
                 requestToChangeActive={setActiveItemIndex}
@@ -60,6 +62,7 @@ export default () => {
                 <div style={{ height: 50, background: '#FFF' }}>$7.49
                 <button id="button">buy</button></div>
             </ItemsCarousel>
+        </div>
         </div>
     );
 };
