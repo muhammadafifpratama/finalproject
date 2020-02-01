@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
 import rumah from "./pages/home"
-import scroller from "./component/scroll"
-import list from "./component/images"
 import karo from "./pages/ngetes"
 import { Route} from "react-router-dom"
-import aaa from "./component/tes"
+import tes from "./component/tes"
+import carousel from "./carousel/main"
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Route path="/" component={karo} exact />
-        <Route path="/tes" component={scroller} />
-        <Route path="/gambar" component={list} />
+        <Route path="/" component={rumah} exact />
+        <Route path="/tes" component={carousel} exact />
       </div>
       )
     }
